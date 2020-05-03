@@ -1,12 +1,14 @@
 {
   "name": "@pyramation/babel-preset-env",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "babel-preset-env",
   "main": "src/index.js",
   "directories": {
     "src": "src"
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "lint": "eslint lib --fix"
   },
@@ -25,13 +27,13 @@
   },
   "homepage": "https://github.com/pyramation/babel-preset-env#readme",
   "dependencies": {
-    "@babel/core": "7.8.4",
+    "@babel/core": "7.9.6",
     "@babel/plugin-proposal-class-properties": "7.8.3",
     "@babel/plugin-proposal-export-default-from": "7.8.3",
-    "@babel/plugin-proposal-object-rest-spread": "7.8.3",
-    "@babel/plugin-transform-runtime": "7.8.3",
-    "@babel/preset-env": "7.8.4",
-    "@babel/preset-react": "7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "7.9.6",
+    "@babel/plugin-transform-runtime": "7.9.6",
+    "@babel/preset-env": "7.9.6",
+    "@babel/preset-react": "7.9.4",
     "babel-plugin-macros": "2.8.0"
   },
   "devDependencies": {
